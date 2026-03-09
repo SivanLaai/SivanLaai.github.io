@@ -1,5 +1,5 @@
 
-# 💻 Experiences
+# 💻 Experience
 - *2024.05 - 2025.12.31*, Algorithm Engineer, Peng Cheng Laboratory
 - *2025.05.01 - 2025.06.16*, Adjunct Lecturer (School of Artificial Intelligence), Lijiang Culture and Tourism College
 - *2021.09.01 - 2025.12.31*, Teaching Assistant, University of Chinese Academy of Sciences (UCAS)
