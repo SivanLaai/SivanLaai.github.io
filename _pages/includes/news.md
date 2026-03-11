@@ -1,3 +1,4 @@
+<span class='anchor' id='news'></span>
 # 🔥 News
 - *2026.03*: 🎉 One paper is accepted by DAC 2026!
 - *2026.02*: 🎉 One paper is accepted by TCAD 2026!

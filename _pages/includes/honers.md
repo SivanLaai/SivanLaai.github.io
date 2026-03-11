@@ -1,3 +1,4 @@
+<span class='anchor' id='honors'></span>
 # 🎖 Honors and Awards
 - openDACS 2025 Rising Star Award in Open-Source EDA & Chips (2025)
 - openDACS 2025 Excellence Award in Open-Source EDA & Chips Challenge (2025)

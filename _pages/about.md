@@ -6,6 +6,8 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+  - /en/
+  - /en/about/
 ---
 
 <span class='anchor' id='about-me'></span>
