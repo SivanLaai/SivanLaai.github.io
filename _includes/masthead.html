@@ -4,20 +4,29 @@
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-home-item">
+          <li class="masthead__menu-item masthead__menu-item--lg masthead__menu-item--lang">
             {% if page.url == "/zh/" %}
-              <a href="/">
-                <img class="svg" src="/images/en.svg" width="20pt"> English</a>
-              </a>
+              <a href="{{ '/' | relative_url }}" target="_self"><img class="svg" src="{{ '/images/en.svg' | relative_url }}" width="20pt"> English</a>
             {% else %}
-              <a href="/zh/">
-                <img class="svg" src="/images/cn.svg" width="20pt"> 中文</a>
-              </a>
+              <a href="{{ '/zh/' | relative_url }}" target="_self"><img class="svg" src="{{ '/images/cn.svg' | relative_url }}" width="20pt"> 中文</a>
             {% endif %}
           </li>
-          {% for link in site.data.navigation.main %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
+          {% if page.url == "/zh/" %}
+            {% assign cv_label = "下载简历" %}
+            {% assign cv_url = site.cv_url_zh | default: site.cv_url %}
+            {% for link in site.data.navigation.main_zh %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+          {% else %}
+            {% assign cv_label = "Download CV" %}
+            {% assign cv_url = site.cv_url_en | default: site.cv_url %}
+            {% for link in site.data.navigation.main_en %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+          {% endif %}
+          {% if cv_url %}
+            <li class="masthead__menu-item"><a href="{{ cv_url | relative_url }}" target="_self" download>{{ cv_label }}</a></li>
+          {% endif %}
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>

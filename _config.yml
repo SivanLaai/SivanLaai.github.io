@@ -7,7 +7,14 @@
 
 # Site Settings
 title                    : "Xinhua Lai (赖心华)"
-description              : "Focusing on AI for EDA and large generation model."
+title_en                 : "Xinhua Lai (赖心华)"
+title_zh                 : "赖心华 (Xinhua Lai)"
+description              : "Focusing on AI for EDA and physical design."
+description_en           : "Focusing on AI for EDA and physical design."
+description_zh           : "专注于 AI for EDA 与物理设计相关研究。"
+cv_url                  : "/data/cv/UCAS_PHD_laixinhua_CV.pdf"
+cv_url_en               : "/data/cv/UCAS_PHD_laixinhua_CV.pdf"
+cv_url_zh               : "/data/cv/中国科学院大学_赖心华_博士_简历.pdf"
 repository               : "SivanLaai/SivanLaai.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -22,6 +29,8 @@ baidu_site_verification  : codeva-qROqvspRB6
 # Site Author
 author:
   name             : "Xinhua Lai (赖心华)"
+  name_en          : "Xinhua Lai (赖心华)"
+  name_zh          : "赖心华 (Xinhua Lai)"
   avatar           : "images/avatar.jpg"
   bio              : ""
   location         : "Beijing"
