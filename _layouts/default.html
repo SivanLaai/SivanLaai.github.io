@@ -1,0 +1,61 @@
+---
+layout: compress
+---
+
+<!doctype html>
+<html lang="{% if page.url == '/zh/' %}zh-CN{% else %}en{% endif %}" class="no-js">
+  <head>
+    {% include head.html %}
+    {% include head/custom.html %}
+  </head>
+
+  <body>
+
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
+
+    <div id="main" role="main">
+      {% include sidebar.html %}
+    
+      <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        <div class="page__inner-wrap">
+          <section class="page__content" itemprop="text">
+            {{ content }}
+          </section>
+        </div>
+      </article>
+    </div>
+
+    {% if site.icp_beian or site.gongan_beian %}
+    <div class="page__footer">
+      <footer>
+        <div class="page__footer-copyright">
+          <div class="beian__row">
+          {% if site.gongan_beian %}
+            <span class="beian__item">
+              {% if site.gongan_beian_icon %}
+                <img src="{{ site.gongan_beian_icon | relative_url }}" class="beian__icon" alt="公安备案">
+              {% endif %}
+              {% if site.gongan_beian_code %}
+                <a href="https://beian.mps.gov.cn/#/query/webSearch?code={{ site.gongan_beian_code }}">{{ site.gongan_beian }}{{ site.gongan_beian_code }}</a>
+              {% else %}
+                <span>{{ site.gongan_beian }}</span>
+              {% endif %}
+            </span>
+          {% endif %}
+          {% if site.icp_beian %}
+            <span class="beian__item">
+              <a href="https://beian.miit.gov.cn/">{{ site.icp_beian }}</a>
+            </span>
+          {% endif %}
+          </div>
+        </div>
+      </footer>
+    </div>
+    {% endif %}
+
+    {% include scripts.html %}
+
+  </body>
+</html>

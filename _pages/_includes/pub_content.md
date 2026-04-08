@@ -1,0 +1,8 @@
+- ``DAC 2026 (CCF-A)`` [iPCL-M1: Pre-training of Chip Layout for Metrics Evaluation and Optimization](#). **Xinhua Lai**, He Liu, Weiguo Li, Yihang Qiu, Miao Liu, Simin Tao, Xingquan Li, Jungang Xu
+- ``TODAES 2025 (CCF-B)`` [iPO: Constant Liar Parameter Optimization for Placement with Representation and Transfer Learning](#). **Xinhua Lai**, Miao Liu, Xingquan Li, Yihang Qiu, Shijian Chen, Xinhao Li, Jungang Xu
+- ``ISEDA 2026 (EI)`` [GT-Fusion: Synergizing LLM Semantics, Topology, and Geometry for PPA Prediction and Optimization](#). **Xinhua Lai**, He Liu, Miao Liu, Xingquan Li, Jungang Xu (Oral, ~22.5%)
+- ``TCAD 2026 (CCF-A)`` [CircuitFlow: Learning Dynamic Representations for Logic Optimization](#). Miao Liu, **Xinhua Lai**, Liwei Ni, Xingyu Meng, Rui Wang, Junfeng Liu, Xingquan Li, Jungang Xu
+- ``ASPDAC 2026 (CCF-C)`` [iPCL: Pre-training for Chip Layout (Invited)](#). Xingquan Li, Weiguo Li, **Xinhua Lai**
+- ``TCAD 2025 (CCF-A)`` [AiEDA: An Open-Source AI-Aided Design Library](#). Yihang Qiu, Zengrong Huang, Simin Tao, Hongda Zhang, Weiguo Li, **Xinhua Lai**, Rui Wang, Weiqiang Wang, Xingquan Li
+- ``TODAES 2025 (CCF-B)`` [A Survey of Machine Learning Approaches in Logic Synthesis](#). Miao Liu, Liwei Ni, Junfeng Liu, Xingyu Meng, Rui Wang, Xiaoze Lin, **Xinhua Lai**, Xingquan Li, Jungang Xu
+- ``ISEDA 2025 (EI)`` [AiEDA-2.0: An Open-source AI-Aided Design Library](#). Yihang Qiu, Zengrong Huang, Weiguo Li, **Xinhua Lai**, Rui Wang, He Liu, Ping Zhou, Simin Tao, Junfeng Liu, Yifang Li, Xingquan Li
