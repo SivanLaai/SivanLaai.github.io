@@ -1,5 +1,5 @@
 <span class='anchor' id='experience'></span>
-# 💻 Experience
+# 💻 Selected Experience
 - *May 2024 - Present*, Research Intern, Peng Cheng Laboratory
 - *May 2025 - Jun 2025*, Part-time Lecturer, School of Artificial Intelligence, Lijiang Culture and Tourism College
 - *Sep 2021 - Present*, Teaching Assistant (TA), University of Chinese Academy of Sciences (UCAS)
