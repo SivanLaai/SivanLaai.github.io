@@ -21,10 +21,10 @@ google_scholar_stats_use_cdn : true
 # google analytics
 google_analytics_id      : G-TG5209MFSG
 baidu_analytics_id       : aa4e404535364259553aa4bd8f89bb3a
-# icp_beian                : 京ICP备2023014024号-1
-# gongan_beian             : 京公网安备
-# gongan_beian_code        : "11011602001037"
-# gongan_beian_icon        : /data/gov.png
+icp_beian                : 京ICP备2023014024号-1
+gongan_beian             : 京公网安备
+gongan_beian_code        : "11011602001037"
+gongan_beian_icon        : /data/gov.png
 
 # # SEO Related
 # google_site_verification : b_BbOIt7d513ZXYDw-YRMicO6O5tthYiouqWDdWjGTU
@@ -38,7 +38,7 @@ author:
   name_zh          : "赖心华 (Xinhua Lai)"
   avatar           : "images/avatar.jpg"
   bio              : ""
-  location         : "Beijing (北京)"
+  location         : "Hangzhou（杭州）"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=RSKRAUsAAAAJ"

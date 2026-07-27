@@ -1,6 +1,7 @@
 <span class='anchor' id='experience'></span>
 # 💻 Selected Experience
-- *May 2024 - Present*, Research Intern, Peng Cheng Laboratory
+- *Jul 2026 - Present*, Postdoctoral Fellow, School of Intelligent Science and Technology, Hangzhou Institute for Advanced Study, UCAS
+- *May 2024 - Dec 2025*, Research Intern, Peng Cheng Laboratory
 - *May 2025 - Jun 2025*, Part-time Lecturer, School of Artificial Intelligence, Lijiang Culture and Tourism College
 - *Sep 2021 - Present*, Teaching Assistant (TA), University of Chinese Academy of Sciences (UCAS)
 - *Aug 2020 - Aug 2021*, Research Assistant, CCIP Lab, University of Chinese Academy of Sciences (UCAS)
